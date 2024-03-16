@@ -1,0 +1,18 @@
+{
+  "eslint.experimental.useFlatConfig": true,
+  "json.schemaDownload.enable": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "never",
+    "source.fixAll.format": "never"
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "tailwindCSS.experimental.classRegex": [
+    ["classes \\=([^;]*);", "'([^']*)'"],
+    ["classes \\=([^;]*);", "\"([^\"]*)\""],
+    ["classes \\=([^;]*);", "\\`([^\\`]*)\\`"]
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
